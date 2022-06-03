@@ -1,0 +1,1 @@
+deno run ./modules/args-read/args-read.ts

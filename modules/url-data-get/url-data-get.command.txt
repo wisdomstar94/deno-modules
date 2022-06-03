@@ -1,0 +1,3 @@
+deno run ./modules/url-data-get/url-data-get.ts
+
+deno run --allow-net=www.example.com ./modules/url-data-get/url-data-get.ts
