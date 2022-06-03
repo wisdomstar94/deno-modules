@@ -1,0 +1,3 @@
+deno run ./modules/read-file/read-file.ts 
+
+deno run --allow-read ./modules/read-file/read-file.ts 
