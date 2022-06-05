@@ -1,1 +1,1 @@
-deno run --allow-read --allow-write ./modules/ensure-dir/ensure-dir.ts
+deno run --allow-read --allow-write ./examples/ensure-dir/ensure-dir.ts

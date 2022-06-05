@@ -1,0 +1,1 @@
+deno run --allow-read --allow-write ./examples/move-file-or-folder/move-file-or-folder.ts

@@ -1,1 +1,1 @@
-deno run ./modules/args-read/args-read.ts
+deno run ./examples/args-read/args-read.ts
