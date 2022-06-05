@@ -1,7 +1,7 @@
 import { move } from "https://deno.land/std@0.142.0/fs/move.ts";
-import { MoveFileOrFolderState } from "./move-file-or-folder.interface.ts";
+import { ImoveFileOrFolder } from "./move-file-or-folder.interface.ts";
 
-export const moveFileOrFolder = async(beforeFileOrFolderPath: string, afterFileOrFolderPath: string): Promise<MoveFileOrFolderState> => {
+export const moveFileOrFolder = async(beforeFileOrFolderPath: string, afterFileOrFolderPath: string): Promise<ImoveFileOrFolder.State> => {
   try {
     await move(beforeFileOrFolderPath, afterFileOrFolderPath);
     return 'success';

@@ -1,1 +1,4 @@
-export type MoveFileOrFolderState = 'success' | 'target-not-found' | 'error';
+export declare namespace ImoveFileOrFolder {
+  export type State = 'success' | 'target-not-found' | 'error';
+}
+

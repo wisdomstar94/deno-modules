@@ -1,1 +1,4 @@
-export type ExistFileState = 'exist' | 'not-exist' | 'error';
+export declare namespace IexistFile {
+  export type State = 'exist' | 'not-exist' | 'error';
+}
+

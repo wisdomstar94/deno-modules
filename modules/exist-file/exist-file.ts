@@ -1,6 +1,6 @@
-import { ExistFileState } from "./exist-file.interface.ts";
+import { IexistFile } from "./exist-file.interface.ts";
 
-export const isExistFile = async(filePath: string): Promise<ExistFileState> => {
+export const isExistFile = async(filePath: string): Promise<IexistFile.State> => {
   try {
     await Deno.stat(filePath);
     return 'exist';

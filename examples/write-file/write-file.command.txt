@@ -1,0 +1,2 @@
+deno run --allow-write ./examples/write-file/write-file.ts
+
