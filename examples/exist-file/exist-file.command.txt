@@ -1,0 +1,1 @@
+deno run --allow-read ./examples/exist-file/exist-file.ts
