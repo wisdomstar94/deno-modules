@@ -1,1 +1,0 @@
-deno run ./modules/create-file/create-file.ts
