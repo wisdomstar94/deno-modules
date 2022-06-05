@@ -1,4 +1,4 @@
-import { isExistFile } from "../../examples/exist-file/exist-file.ts";
+import { isExistFile } from "../../modules/exist-file/exist-file.ts";
 import * as path from "https://deno.land/std@0.142.0/path/mod.ts";
 const __dirname = path.dirname(path.fromFileUrl(import.meta.url));
 
