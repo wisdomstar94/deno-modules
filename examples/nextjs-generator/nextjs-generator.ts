@@ -44,7 +44,7 @@ async function generateComponent() {
   await ensureFile(path.join(fileCreateBasePath, componentFileName));
   await Deno.writeTextFile(path.join(fileCreateBasePath, componentFileName), `
 import styles from "./${componentStyleFileName}";
-import { I${componentCamelCase} } from "./${componentInterfaceFileName}";
+import { I${componentCamelCase} } from "./${componentName}.interface";
 
 const ${componentCamelCase} = (props: I${componentCamelCase}.Props) => {
   return (
